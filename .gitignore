@@ -1,0 +1,62 @@
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ===== Packaging / build =====
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+wheelhouse/
+*.whl
+
+# ===== Virtualenvs =====
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ===== Test / tooling caches =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.cache/
+.tox/
+nox/
+
+# ===== IDE / editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Logs / local artifacts =====
+*.log
+
+# ===== Secrets / local config (common) =====
+.env
+.env.*
+*.pem
+*.key
+*.crt
+
+# ===== Optional: local notes / temp =====
+.tmp/
+tmp/
+
